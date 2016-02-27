@@ -1,0 +1,10 @@
+<h1>Pages#welcome</h1>
+<p>The current time is <%= @time %></p>
+<p>Our Cheifs</p>
+<%= @chefs.size%>
+<ul>
+<% @chefs.each do |c|%>
+  <li><%= c %></li>
+<% end %>
+</ul>
+

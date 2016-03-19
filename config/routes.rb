@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :posts
   # get 'pages/welcome'
   # get 'pages/welcome' => 'pages#welcome'
   root 'pages#welcome'
